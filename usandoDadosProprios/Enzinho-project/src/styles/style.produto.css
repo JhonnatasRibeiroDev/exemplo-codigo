@@ -1,0 +1,11 @@
+.Produto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+}
