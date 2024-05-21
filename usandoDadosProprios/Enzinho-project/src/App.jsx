@@ -1,14 +1,23 @@
 import './App.css';
 import ListaProdutos from './components/ListaProdutos';
+import NavBar from './components/NavBar';
 function App() {
   return (
     <div>
-      <h1>Enzinho</h1>
-      <p>Enzinho é um projeto de um site de notícias que tem como objetivo informar sobre os acontecimentos do mundo de forma rápida e prática.</p>
-      <div className="pagina-inicial">
+      <NavBar />
+      <section className='banner'>
+      </section>
+      <section className='descricao'>
+        <h2>Descrição</h2>
+        <p>Enzinho é um projeto de exemplo</p>
+      </section>
+      <div className="paginaProdutos">
         <h1>Produtos</h1>
-        <ListaProdutos/>
+        <ListaProdutos />
       </div>
+      <footer>
+        <p>Jhonnatas Ribeiro - Todos os direitos reservados</p>
+      </footer>
     </div>
   )
 } export default App;

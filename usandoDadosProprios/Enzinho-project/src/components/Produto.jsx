@@ -12,6 +12,7 @@ function Produto({ produto }) {
             <h2 className='nome'>{produto.nome}</h2>
             <p className='descricao'>{produto.descricao}</p>
             <p className='preco'>{produto.preco}</p>
+            <button>Comprar</button>
         </div>
     );
 }
