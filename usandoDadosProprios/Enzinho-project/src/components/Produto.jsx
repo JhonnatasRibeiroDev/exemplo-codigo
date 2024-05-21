@@ -8,7 +8,7 @@ function Produto({ produto }) {
 
     return (
         <div className='Produto'>
-            
+            <img src={produto.imagem} alt={produto.nome} />
             <h2 className='nome'>{produto.nome}</h2>
             <p className='descricao'>{produto.descricao}</p>
             <p className='preco'>{produto.preco}</p>

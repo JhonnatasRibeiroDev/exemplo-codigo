@@ -9,3 +9,9 @@
     border: 1px solid #ff0000;
     border-radius: 5px;
 }
+.Produto img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #ff0000;
+}
