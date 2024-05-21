@@ -1,0 +1,32 @@
+.descricao{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-bottom: 1px solid #e9ecef;
+}
+ .banner{
+  background-image: url('https://midias.agazeta.com.br/2023/02/01/mulher-com-perfume-962426.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 400px;
+}
+footer {
+  margin-top: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+.paginaProdutos{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,30 @@
+.Produto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    background-color: rgba(221, 247, 255, 0.438);
+}
+.Produto img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #d1d1d1;
+}
+.Produto button{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+.Produto button:hover{
+    background-color: #628cff;
+}
