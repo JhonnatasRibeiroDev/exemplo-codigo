@@ -6,12 +6,13 @@
     align-items: center;
     margin-top: 20px;
     padding: 20px;
-    border: 1px solid #ff0000;
+    border: 1px solid #cfcfcf;
     border-radius: 5px;
+    background-color: rgba(221, 247, 255, 0.438);
 }
 .Produto img{
     width: 200px;
     height: 200px;
     border-radius: 5px;
-    border: 1px solid #ff0000;
+    border: 1px solid #d1d1d1;
 }
